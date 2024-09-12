@@ -1,0 +1,21 @@
+Lógica de programação
+- variáveis
+- operadores
+- algorítmo
+- estruturas de controle
+- POO
+- estruturas de dados
+
+GIT e GITHUB
+
+Comandos básicos do git:
+git config --global user.name "guisnt7"
+git config --global user.email "gegeribeiropessoa@gmail.com"
+git clone https://github.com/guisnt7/javascript
+git staus (verificar o status do repositório)
+
+Gerar token GitHub
+1) Settings
+2) Developer Settings
+3) Token classic
+4) Gerar o token selecionando tudo, guardar o token
