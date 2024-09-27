@@ -1,62 +1,154 @@
 Lógica de programação
-- variáveis
-- operadores
-- algorítmo
-- estruturas de controle
+
+- Variáveis
+- Operadores
+- Algorítmo
+- Estruturas de controle
 - POO
-- estruturas de dados
-
-
+- Estruturas de dados
+ 
+---
+ 
 GIT e GITHUB
  
 Comandos básicos do git:
+
 git config --global user.name "Seu nome"
 git config --global user.email "seuemail@email.com"
 git clone url_do_repositório
 git status (verificar o status do repositório local)
 git add . (adiciona ao repositório local)
-git commit -m "Tutorial" (Documentar as alterações)
+git commit -m "Atualização" (Documentar as alterações)
 git push (Enviar ao repositório GitHub)
-git pull (sincroniza as informações do repositório) no PC
+git pull (Sincroniza as informações do repositório - recebe atualizações feitas fora da pasta local no PC)
  
+---
+
 Gerar token GitHub
+
 1) Settings
 2) Developer Settings
 3) Token classic
 4) Gerar o token selecionando tudo, guardar o token
-tem menu de contexto
 
+---
 
-boas praticas na programação 
+Boas práticas na programação
+
 1) Cabeçalho de documentação
+
 /**
-        Nome do projeto
-        Descrição da classe / função
-        @author guisnt7
-        @version 1.0
+
+    Nome do projeto
+    Descrição da classe / função
+    @author Erica Viana
+    @version 1.0
 */
 
+2) Nomes de arquivos, variáveis, funções, classes, etc
+
+Regras (clean code / código limpo)
+ - Declarar nomes que tenham relação com o problema
+ - Não usar espaço, "ç", acentos e caracteres especiais para declaração de nomes (Pode causar erros internos no programa)
+ - Só classes iniciam com letra maiúscula
+ - Não iniciar um nome com número (variável)
+ - Quando for declarar dois nomes, usar a técnica do camelo
+    (camel case) - Usar uma letra maiúscula na segunda  palavra
+    Exemplo: nomecliente -> nomeCliente
+
+---
+
+Node - Plataforma que permite a execução do JavaScript fora do navegador da internet (browser)
+https://nodejs.org/pt - Baixar a versão LTS
+
+---
+
+Comandos básicos do MS-DOS
+
+clear / cls (limpar a tela do Terminal)
+dir (listar arquivos e diretórios)
+cd "nome_diretório" (entrar no diretório) / Exemplo: cd Fundamentos
+cd .. (voltar para o diretório anterior)
+
+node (permite a execução do JavaScript fora do navegador da internet (browser))
+
+node -v (verificar a versão do Node instalado no PC)
+
+npm -v (verificar a versão do NPM instalado no PC)
+npm ls (listar pacotes instalados)
+npm init (iniciar um novo projeto JavaScript - um setup do novo projeto)
+
+---
+
+Comandos JavaScript (Sintaxe)
+
+console.log() -> escrever no console
+console.clear() -> limpar a tela do console
+const -> criar (declarar) uma constante
+let -> criar (declarar) uma variável
+typeof() -> verificar o tipo de variável
+
+ATENÇÃO - No JavaScript uma variável pode ser criada usando Let ou Var
+Var é obsoleto e inseguro (usar sempre o Let)
+
+---
+
+Gerenciador de pacote para o Node
+NPM está relacionado à pasta do projeto ou seja, os pacotes são instalados na raiz do projeto e não no sistema operacional
+
+https://www.npmjs.com/ - repositório de pacotes do Node.js
+Um dos pacotes do Node é o framework React, que é instalado pelo NPM
+
+---
+
+npm init (inicia um novo projeto JavaScript)
+    |___ package.json
+
+npm i nome_do_pacote ( instalar um novo pacote)
+npm r nome_do_pacote (remove um pacote)
 
 
+    json (JavaScript Object Notation / JavaScript orientado à objetos)
+
+---
+
+Variável e constante
+
+Uma variável é um espaço na memória do computador onde armazenamos dados que podem ser utilizados e modificados durante a execução de um programa. O nome "variável" vem do fato de que o valor armazenado pode variar ao longo do tempo, conforme o programa roda.
+
+Por que usar variáveis?
+Para guardar informações que você vai precisar mais tarde.
+Para realizar cálculos ou tomar decisões baseadas em diferentes valores.
+
+Uma constante é como uma variável, mas com uma diferença importante: uma vez que você define o valor de uma constante, ele não pode ser alterado durante a execução do programa.
+
+Por que usar constantes?
+Segurança: Se você sabe que um valor não deve ser alterado em seu programa, usar uma constante evita erros.
+Legibilidade: Quando você usa uma constante, deixa claro para quem está lendo o código que aquele valor é fixo e importante.
+Boas práticas: Em muitos casos, é recomendado usar constantes sempre que possível para valores que não precisam mudar, facilitando a manutenção do código.
+
+Nas linguagens de programação, as variáveis são tipadas (estáticas) ou dinamicamente tipadas (dinâmicas)
 
 
+Existem 3 tipos de variáveis:
 
+String -> Armazena caracteres e números
+Number (Número) -> Armazena números inteiros e não inteiros
+Boolean -> true (verdadeiro) / false (falso)
 
-_____________________________________________________________________________________
-Node - Plataforma que permite a execução 
-do javascript fora do navegador de internet (browser)
-https://nodejs.org/pt
+---
 
-Comandos básicos (baixar semore a versao LTS)
-node -v
+Mandamentos da programação
 
-Gerenciador de pacote para o node 
-npm está relacionado a pasta do projeto ou seja os pacotes são instalado na raiz do projeto e não no sistema 
+1) UX (User eXperience) - Desenvolver sempre pensando na experiência do usuário
 
-npm -v (versao npm)
-nmp ls (listar pacotes instalado)
-nmp init (iniciar um novo projeto javascript)
-          ___ package.sincroniza
-json (javascript Object Notation)
+Dica de vídeo: https://www.youtube.com/watch?v=Z1GNW_woXI0
 
+2) Usar o mínimo possível de código (variáveis, operadores, comparadores, estruturas de controle, etc) para resolver o problema (lembrar do marcapasso)
 
+3) Entender o problema - Não adianta sentar na frente do PC se você não sabe como resolver o problema
+
+Algoritmo ("receita do bolo")
+Conceito: 
+            Variáveis
+Entrada - Processamento - Saída

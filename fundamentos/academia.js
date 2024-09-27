@@ -1,0 +1,42 @@
+/**
+ * *Ficha de um aluno da cademia
+ * @author guisnt7
+ */
+
+// Variáveis - O algoritmo
+let nome
+let idade
+let peso
+let altura
+let vip
+let fcm // Frequência cardíaca máxima
+let imc // Índice de massa corporal
+
+// Entrada - Atribuir valores as variáveis
+console.clear()
+nome = "guisnt7"
+idade = 19
+peso = 58
+altura = 1.74
+vip = true
+
+// Processamento - Fórmula para cálculo do código
+fcm = 208 - (0.7 * idade)
+imc = peso / (altura * altura)
+
+// Saída - Resultado do processamento
+console.log("Ficha do aluno")
+console.log("_____________________")
+console.log(`Nome: ${nome}`)
+console.log(`Idade: ${idade}`)
+console.log(`Peso: ${peso}`)
+console.log(`Altura: ${altura}`)
+console.log(`Vip: ${vip}`)
+console.log(`FCM: ${fcm}`)
+console.log(`IMC ${imc.toFixed(2)}`)
+
+// Variáveis IMC - Peso, Altura e IMC
+// Entrada - Peso, Altura
+// Processamento - "IMC = peso (altura * altura)"
+// Saída - IMC
+// .toFixed(2) - Limita os caracteres numéricos às casas decimais que estão entre o ()
