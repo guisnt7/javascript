@@ -13,8 +13,8 @@ GIT e GITHUB
  
 Comandos básicos do git:
 
-git config --global user.name "Seu nome"
-git config --global user.email "seuemail@email.com"
+git config --global user.name "guisnt7"
+git config --global user.email "gegeribeiropessoa@gmail.com"
 git clone url_do_repositório
 git status (verificar o status do repositório local)
 git add . (adiciona ao repositório local)
